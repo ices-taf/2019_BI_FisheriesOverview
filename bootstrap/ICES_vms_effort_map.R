@@ -3,7 +3,7 @@
 taf.library("icesVMS")
 
 # icesVMS::update_token("colin")
-vms_effort <- icesVMS::get_effort_map("Bay of Biscay and the Iberian Coast")
+vms_effort <- icesVMS::get_effort_map("Bay of Biscay and the Iberian Coast", year = 2017)
 
 # convert to sf
 vms_effort$wkt <- sf::st_as_sfc(vms_effort$wkt)
