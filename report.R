@@ -79,15 +79,15 @@ catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Pelagic fishes nei")] <- "pelagi
 catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Raja rays nei")] <- "elasmobranch"
 catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Bathyraja rays nei")] <- "elasmobranch"
 catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Albacore")] <- "pelagic"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Blue mussel")] <- "crustacean"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Sea mussels nei")] <- "crustacean"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Cockles nei")] <- "crustacean"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Common edible cockle")] <- "crustacean"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Tuberculate cockle")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Blue mussel")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Sea mussels nei")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Cockles nei")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Common edible cockle")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Tuberculate cockle")] <- "crustacean"
 catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Pouting(=Bib)")] <- "demersal"
 catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Gadiformes nei")] <- "demersal"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Cupped oysters nei")] <- "crustacean"
-catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Pacific cupped oyster")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Cupped oysters nei")] <- "crustacean"
+# catch_dat$GUILD[which(catch_dat$COMMON_NAME == "Pacific cupped oyster")] <- "crustacean"
 catch_dat$COMMON_NAME[which(catch_dat$COMMON_NAME == "Octopuses, etc. nei")] <- "Octopuses"
 unique(catch_dat$GUILD)
 catch_dat$GUILD <- tolower(catch_dat$GUILD)
@@ -166,6 +166,8 @@ write.taf(dat, file ="2019_BI_FO_Figure12a.csv", dir = "report" )
 # 4. Elasmobranch
 #~~~~~~~~~~~
 plot_stock_trends(trends, guild="elasmobranch", cap_year = 2019, cap_month = "November",return_data = FALSE )
+# time series is too long, represent from 1980
+
 ggplot2::ggsave("2019_BI_FO_Figure12d.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
 
 dat <- plot_stock_trends(trends, guild="elasmobranch", cap_year = 2019, cap_month = "November", return_data = TRUE)
@@ -305,20 +307,23 @@ dev.off()
 # 6. All
 #~~~~~~~~~~~
 bar <- plot_CLD_bar(catch_current, guild = "All", caption = T, cap_year = 2019, cap_month = "November", return_data = FALSE)
+catch_current2 <- catch_current %>% top_n(n= 10, wt = landings) %>% arrange(desc(landings))
+catch_current2 <- catch_current2[(1:10),]
 
+bar <- plot_CLD_bar(catch_current2, guild = "All", caption = T, cap_year = 2019, cap_month = "November", return_data = FALSE)
 
 bar_dat <- plot_CLD_bar(catch_current, guild = "All", caption = T, cap_year = 2019, cap_month = "November", return_data = TRUE)
 write.taf(bar_dat, file ="2019_BI_FO_Figure13_All.csv", dir = "report" )
 
-kobe <- plot_kobe(catch_current, guild = "All", caption = T, cap_year = 2019, cap_month = "November", return_data = FALSE)
-png("report/019_BI_FO_Figure13_All.png",
+kobe <- plot_kobe(catch_current2, guild = "All", caption = T, cap_year = 2019, cap_month = "November", return_data = FALSE)
+png("report/019_BI_FO_Figure13_Alltop10.png",
     width = 137.32,
     height = 88.9,
     units = "mm",
     res = 300)
 p1_plot<-gridExtra::grid.arrange(kobe,
                                  bar, ncol = 2,
-                                 respect = TRUE, top = "All stocks")
+                                 respect = TRUE, top = "All stocks, top 10")
 dev.off()
 
 
@@ -333,10 +338,10 @@ write.taf(dat, file ="2019_BI_FO_Figure7_trends.csv", dir = "report" )
 discardsB <- plot_discard_current(catch_trends, 2019, cap_year = 2019, cap_month = "November")
 
 
-dat <- discardsB <- plot_discard_current(catch_trends, 2019, cap_year = 2019, cap_month = "November", return_data = TRUE)
+dat <- plot_discard_current(catch_trends, 2019, cap_year = 2019, cap_month = "November", return_data = TRUE)
 write.taf(dat, file ="2019_BI_FO_Figure7_current.csv", dir = "report" )
 
-png("report/019_BI_FO_Figure7.png",
+png("report/2019_BI_FO_Figure7.png",
     width = 137.32,
     height = 88.9,
     units = "mm",
