@@ -117,11 +117,13 @@ write.taf(dat, file= "2019_BI_FO_Figure2.csv", dir = "report")
 #~~~~~~~~~~~~~~~#
 
 #Plot
-plot_catch_trends(catch_dat, type = "GUILD", line_count = 5, plot_type = "line")
+plot_catch_trends(catch_dat, type = "GUILD", line_count = 6, plot_type = "line")
 # Undefined is too big, will try to assign guild to the biggest ones
 
 check <- catch_dat %>% filter (GUILD == "undefined")
 unique(check$COMMON_NAME)
+#plenty of molluscs here
+
 
 ggplot2::ggsave("2019_BI_FO_Figure4.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
 
