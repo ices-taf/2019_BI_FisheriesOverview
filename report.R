@@ -172,6 +172,10 @@ plot_stock_trends(trends, guild="elasmobranch", cap_year = 2019, cap_month = "No
 
 ggplot2::ggsave("2019_BI_FO_Figure12d.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
 
+trends2 <- trends %>% filter(Year> 1980)
+plot_stock_trends(trends2, guild="elasmobranch", cap_year = 2019, cap_month = "November",return_data = FALSE )
+ggplot2::ggsave("2019_BI_FO_Figure12d_from1980.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
+
 dat <- plot_stock_trends(trends, guild="elasmobranch", cap_year = 2019, cap_month = "November", return_data = TRUE)
 write.taf(dat, file ="2019_BI_FO_Figure12d.csv", dir = "report" )
 
@@ -325,7 +329,7 @@ png("report/019_BI_FO_Figure13_Alltop10.png",
     res = 300)
 p1_plot<-gridExtra::grid.arrange(kobe,
                                  bar, ncol = 2,
-                                 respect = TRUE, top = "All stocks, top 10")
+                                 respect = TRUE, top = "All stocks")
 dev.off()
 
 
@@ -384,15 +388,15 @@ write.taf(dat, file= "2019_BI_FO_Figure11.csv", dir = "report")
 #~~~~~~~~~~~~~~~#
 #F. ANNEX TABLE 
 #~~~~~~~~~~~~~~~#
-doc <- format_annex_table(clean_status, 2019, return_data = FALSE)
-#can´t find the path
-grey.path <- system.file("symbols", "grey_q.png", package = "icesFO")
-red.path <- system.file("symbols", "red_cross.png", package = "icesFO")
-green.path <- system.file("symbols", "green_check.png", package = "icesFO")
-doc <- format_annex_table(clean_status, 2019, return_data = TRUE)
-write.csv(doc, file = "report/2019_BI_FO_annex_table.csv")
 
-# dat <- format_annex_table(clean_status, 2019, return_data = TRUE)
+
+dat <- format_annex_table(clean_status, 2019)
+
+write.taf(dat, file = "2019_BI_FO_annex_table.csv", dir = "report")
+
+# This annex table has to be edited by hand,
+# For SBL and GES only one values is reported, 
+# the one in PA for SBL and the one in MSY for GES 
 
 
 ###########
