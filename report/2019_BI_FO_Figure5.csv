@@ -1,0 +1,552 @@
+type_var,YEAR,typeTotal
+anchovy,1950,31.546
+anchovy,1951,39.117
+anchovy,1952,43.785
+anchovy,1953,52.493
+anchovy,1954,60.093
+anchovy,1955,81.612
+anchovy,1956,78.03
+anchovy,1957,86.428
+anchovy,1958,94.159
+anchovy,1959,106.094
+anchovy,1960,114.316
+anchovy,1961,120.067
+anchovy,1962,103.013
+anchovy,1963,74.449
+anchovy,1964,107.718
+anchovy,1965,129.877
+anchovy,1966,90.135
+anchovy,1967,78.214
+anchovy,1968,52.507
+anchovy,1969,45.734
+anchovy,1970,46.764
+anchovy,1971,29.177
+anchovy,1972,34.49
+anchovy,1973,30.654
+anchovy,1974,34.157
+anchovy,1975,29.54
+anchovy,1976,44.869
+anchovy,1977,59.625
+anchovy,1978,54.39
+anchovy,1979,43.552
+anchovy,1980,23.25
+anchovy,1981,12.246
+anchovy,1982,5.427
+anchovy,1983,16.814
+anchovy,1984,28.886
+anchovy,1985,13.303
+anchovy,1986,10.921
+anchovy,1987,18.083
+anchovy,1988,17.326
+anchovy,1989,10.333
+anchovy,1990,24.298
+anchovy,1991,15.112
+anchovy,1992,27.583
+anchovy,1993,30.368
+anchovy,1994,29.858
+anchovy,1995,36.233
+anchovy,1996,28.934
+anchovy,1997,22.161
+anchovy,1998,34.13
+anchovy,1999,21.869
+anchovy,2000,37.019
+anchovy,2001,42.245
+anchovy,2002,23.838
+anchovy,2003,15.591
+anchovy,2004,21.509
+anchovy,2005,5.553
+anchovy,2006,5.7127
+anchovy,2007,5.5533
+anchovy,2008,2.90901
+anchovy,2009,2.46782
+anchovy,2010,13.7806
+anchovy,2011,23.25618
+anchovy,2012,22.14965
+anchovy,2013,20.08073
+anchovy,2014,28.02645
+anchovy,2015,35.69733
+anchovy,2016,33.74507
+anchovy,2017,37.9883
+anchovy,2018,44.349808
+atlantic mackerel,1950,9.297
+atlantic mackerel,1951,9.465
+atlantic mackerel,1952,5.877
+atlantic mackerel,1953,10.795
+atlantic mackerel,1954,6.52
+atlantic mackerel,1955,12.123
+atlantic mackerel,1956,28.181
+atlantic mackerel,1957,31.877
+atlantic mackerel,1958,24.35
+atlantic mackerel,1959,12.732
+atlantic mackerel,1960,11.737
+atlantic mackerel,1961,17.762
+atlantic mackerel,1962,31.097
+atlantic mackerel,1963,20.13
+atlantic mackerel,1964,20.668
+atlantic mackerel,1965,55.767
+atlantic mackerel,1966,44.125
+atlantic mackerel,1967,55.921
+atlantic mackerel,1968,43.258
+atlantic mackerel,1969,49.267
+atlantic mackerel,1970,81.368
+atlantic mackerel,1971,40.559
+atlantic mackerel,1972,36.893
+atlantic mackerel,1973,33.174
+atlantic mackerel,1974,39.502
+atlantic mackerel,1975,42.676
+atlantic mackerel,1976,51.57
+atlantic mackerel,1977,33.723
+atlantic mackerel,1978,29.232
+atlantic mackerel,1979,26.99
+atlantic mackerel,1980,19.932
+atlantic mackerel,1981,21.359
+atlantic mackerel,1982,22.92
+atlantic mackerel,1983,17.349
+atlantic mackerel,1984,25.304
+atlantic mackerel,1985,24.073
+atlantic mackerel,1986,28.022
+atlantic mackerel,1987,26.292
+atlantic mackerel,1988,29.095
+atlantic mackerel,1989,10.545
+atlantic mackerel,1990,11.732
+atlantic mackerel,1991,12.102
+atlantic mackerel,1992,10.979
+atlantic mackerel,1993,14.758
+atlantic mackerel,1994,15.694
+atlantic mackerel,1995,17.606
+atlantic mackerel,1996,22.415
+atlantic mackerel,1997,27.353
+atlantic mackerel,1998,34.61
+atlantic mackerel,1999,29.029
+atlantic mackerel,2000,39.763
+atlantic mackerel,2001,40.348
+atlantic mackerel,2002,42.786
+atlantic mackerel,2003,37.342
+atlantic mackerel,2004,38.511
+atlantic mackerel,2005,29.754
+atlantic mackerel,2006,26.24061
+atlantic mackerel,2007,28.86501
+atlantic mackerel,2008,26.5868
+atlantic mackerel,2009,23.7061
+atlantic mackerel,2010,32.2541
+atlantic mackerel,2011,20.86957
+atlantic mackerel,2012,27.02322
+atlantic mackerel,2013,29.0465
+atlantic mackerel,2014,61.6196
+atlantic mackerel,2015,61.46587
+atlantic mackerel,2016,41.46959
+atlantic mackerel,2017,41.12756
+atlantic mackerel,2018,40.255361
+blue mussel,1950,2.05
+blue mussel,1951,2.763
+blue mussel,1952,2.439
+blue mussel,1953,2.246
+blue mussel,1954,1.138
+blue mussel,1955,3.32
+blue mussel,1956,3.555
+blue mussel,1957,3.188
+blue mussel,1958,3.71
+blue mussel,1959,4.724
+blue mussel,1960,17.737
+blue mussel,1961,44.153
+blue mussel,1962,54.861
+blue mussel,1963,62.308
+blue mussel,1964,62.597
+blue mussel,1965,65.342
+blue mussel,1966,93.639
+blue mussel,1967,49.482
+blue mussel,1968,67.689
+blue mussel,1969,92.551
+blue mussel,1970,108.65
+blue mussel,1971,16.439
+blue mussel,1972,142.875
+blue mussel,1973,150.444
+blue mussel,1974,117.519
+blue mussel,1975,121.981
+blue mussel,1976,80.096
+blue mussel,1977,60.868
+blue mussel,1978,77.372
+blue mussel,1979,80.98
+blue mussel,1980,106.682
+blue mussel,1981,126.641
+blue mussel,1982,140.116
+blue mussel,1983,124.443
+blue mussel,1984,116.805
+blue mussel,1985,103.256
+blue mussel,1986,4.197
+blue mussel,1987,2.2
+blue mussel,1988,2.981
+blue mussel,1989,1.489
+blue mussel,1990,0.015
+blue mussel,1991,1.345
+blue mussel,1992,0.054
+blue mussel,1993,0.085
+blue mussel,1994,0.019
+blue mussel,1995,0.001
+blue mussel,1996,0.087
+blue mussel,1997,0.208
+blue mussel,1998,0.008
+blue mussel,1999,0.001
+blue mussel,2000,0.251
+blue mussel,2001,0.213
+blue mussel,2002,0.343
+blue mussel,2003,0.076
+blue mussel,2004,0.008
+blue mussel,2005,0.002
+blue mussel,2006,0.1943
+blue mussel,2007,0.00471
+blue mussel,2008,0.002
+blue mussel,2009,0.05681
+blue mussel,2010,0.418
+blue mussel,2011,0.20067
+blue mussel,2012,0.00638
+blue mussel,2013,0.10135
+blue mussel,2014,1.68012
+blue mussel,2015,0.41573
+blue mussel,2016,0.08952
+blue mussel,2017,0.0392
+blue whiting,1950,0
+blue whiting,1951,0
+blue whiting,1952,0
+blue whiting,1953,0
+blue whiting,1954,0
+blue whiting,1955,0
+blue whiting,1956,0
+blue whiting,1957,0
+blue whiting,1958,0
+blue whiting,1959,0
+blue whiting,1960,0
+blue whiting,1961,0
+blue whiting,1962,0
+blue whiting,1963,14.539
+blue whiting,1964,15.427
+blue whiting,1965,18.024
+blue whiting,1966,20.648
+blue whiting,1967,21.139
+blue whiting,1968,20.756
+blue whiting,1969,16.934
+blue whiting,1970,10.267
+blue whiting,1971,0
+blue whiting,1972,4.204
+blue whiting,1973,3.915
+blue whiting,1974,3.891
+blue whiting,1975,4.293
+blue whiting,1976,4.533
+blue whiting,1977,19.566
+blue whiting,1978,16.953
+blue whiting,1979,1.795
+blue whiting,1980,25.473
+blue whiting,1981,35.111
+blue whiting,1982,28.973
+blue whiting,1983,28.786
+blue whiting,1984,20.232
+blue whiting,1985,25.835
+blue whiting,1986,38.098
+blue whiting,1987,36.053
+blue whiting,1988,41.645
+blue whiting,1989,37.211
+blue whiting,1990,34.239
+blue whiting,1991,43.452
+blue whiting,1992,35.575
+blue whiting,1993,36.336
+blue whiting,1994,34.242
+blue whiting,1995,35.733
+blue whiting,1996,33.953
+blue whiting,1997,40.382
+blue whiting,1998,32.426
+blue whiting,1999,33.706
+blue whiting,2000,30.143
+blue whiting,2001,30.214
+blue whiting,2002,29.854
+blue whiting,2003,27.945
+blue whiting,2004,34.656
+blue whiting,2005,48.947
+blue whiting,2006,45.7872
+blue whiting,2007,31.312
+blue whiting,2008,24.59
+blue whiting,2009,17.2574
+blue whiting,2010,12.7723
+blue whiting,2011,3.11717
+blue whiting,2012,8.66914
+blue whiting,2013,19.53663
+blue whiting,2014,26.79354
+blue whiting,2015,27.01902
+blue whiting,2016,29.97667
+blue whiting,2017,30.39196
+blue whiting,2018,24.94932
+hake,1950,70.21
+hake,1951,84.764
+hake,1952,76.601
+hake,1953,67.805
+hake,1954,70.066
+hake,1955,105.874
+hake,1956,68.524
+hake,1957,79.717
+hake,1958,77.826
+hake,1959,79.226
+hake,1960,88.203
+hake,1961,100.738
+hake,1962,92.208
+hake,1963,101.676
+hake,1964,104.717
+hake,1965,74.822
+hake,1966,89.033
+hake,1967,97.618
+hake,1968,89.074
+hake,1969,82.839
+hake,1970,99.654
+hake,1971,37.816
+hake,1972,52.71
+hake,1973,62.954
+hake,1974,47.814
+hake,1975,54.363
+hake,1976,46.748
+hake,1977,46.358
+hake,1978,28.617
+hake,1979,40.806
+hake,1980,41.923
+hake,1981,38.64
+hake,1982,37.741
+hake,1983,44.999
+hake,1984,55.5
+hake,1985,51.716
+hake,1986,44.267
+hake,1987,37.932
+hake,1988,37.855
+hake,1989,28.141
+hake,1990,26.56
+hake,1991,31.407
+hake,1992,27.207
+hake,1993,21.96
+hake,1994,23.672
+hake,1995,27.138
+hake,1996,17.161
+hake,1997,18.814
+hake,1998,15.724
+hake,1999,13.146
+hake,2000,19.5
+hake,2001,11.76
+hake,2002,13.43
+hake,2003,14.663
+hake,2004,17.315
+hake,2005,19.295
+hake,2006,14.84781
+hake,2007,14.05311
+hake,2008,15.64211
+hake,2009,21.14322
+hake,2010,24.1561
+hake,2011,25.33663
+hake,2012,26.92102
+hake,2013,30.08048
+hake,2014,33.01392
+hake,2015,34.87597
+hake,2016,35.06675
+hake,2017,36.00671
+hake,2018,33.8531973
+jack and horse mackerels,1950,77.159
+jack and horse mackerels,1951,80.338
+jack and horse mackerels,1952,77.864
+jack and horse mackerels,1953,105.279
+jack and horse mackerels,1954,91.355
+jack and horse mackerels,1955,91.037
+jack and horse mackerels,1956,93.679
+jack and horse mackerels,1957,82.076
+jack and horse mackerels,1958,85.709
+jack and horse mackerels,1959,84.744
+jack and horse mackerels,1960,79.805
+jack and horse mackerels,1961,86.673
+jack and horse mackerels,1962,104.03
+jack and horse mackerels,1963,116.894
+jack and horse mackerels,1964,121.303
+jack and horse mackerels,1965,111.054
+jack and horse mackerels,1966,96.51
+jack and horse mackerels,1967,112.29
+jack and horse mackerels,1968,134.895
+jack and horse mackerels,1969,132.25
+jack and horse mackerels,1970,159.883
+jack and horse mackerels,1971,81.593
+jack and horse mackerels,1972,126.544
+jack and horse mackerels,1973,114.127
+jack and horse mackerels,1974,87.514
+jack and horse mackerels,1975,111.946
+jack and horse mackerels,1976,160.885
+jack and horse mackerels,1977,174.081
+jack and horse mackerels,1978,96.324
+jack and horse mackerels,1979,69.519
+jack and horse mackerels,1980,63.821
+jack and horse mackerels,1981,45.736
+jack and horse mackerels,1982,53.334
+jack and horse mackerels,1983,76.809
+jack and horse mackerels,1984,56.985
+jack and horse mackerels,1985,56.59
+jack and horse mackerels,1986,77.802
+jack and horse mackerels,1987,79.879
+jack and horse mackerels,1988,81.476
+jack and horse mackerels,1989,67.203
+jack and horse mackerels,1990,70.531
+jack and horse mackerels,1991,73.717
+jack and horse mackerels,1992,82.447
+jack and horse mackerels,1993,84.58
+jack and horse mackerels,1994,71.713
+jack and horse mackerels,1995,54.673
+jack and horse mackerels,1996,77.348
+jack and horse mackerels,1997,75.154
+jack and horse mackerels,1998,76.3
+jack and horse mackerels,1999,83.37
+jack and horse mackerels,2000,82.46
+jack and horse mackerels,2001,101.677
+jack and horse mackerels,2002,78.812
+jack and horse mackerels,2003,59.333
+jack and horse mackerels,2004,57.765
+jack and horse mackerels,2005,61.834
+jack and horse mackerels,2006,49.9523
+jack and horse mackerels,2007,47.3404
+jack and horse mackerels,2008,56.1669
+jack and horse mackerels,2009,55.1036
+jack and horse mackerels,2010,47.0384
+jack and horse mackerels,2011,56.57765
+jack and horse mackerels,2012,43.60985
+jack and horse mackerels,2013,57.88487
+jack and horse mackerels,2014,53.94672
+jack and horse mackerels,2015,47.36492
+jack and horse mackerels,2016,35.79549
+jack and horse mackerels,2017,60.258
+jack and horse mackerels,2018,41.9579909
+sardine,1950,134.208
+sardine,1951,146.532
+sardine,1952,143.715
+sardine,1953,150.681
+sardine,1954,172.202
+sardine,1955,144.546
+sardine,1956,177.131
+sardine,1957,175.29
+sardine,1958,218.458
+sardine,1959,218.426
+sardine,1960,250.669
+sardine,1961,261.6
+sardine,1962,228.057
+sardine,1963,219.687
+sardine,1964,251.33
+sardine,1965,224.341
+sardine,1966,206.551
+sardine,1967,198.827
+sardine,1968,163.559
+sardine,1969,150.644
+sardine,1970,136.01
+sardine,1971,183.538
+sardine,1972,149.718
+sardine,1973,170.056
+sardine,1974,127.335
+sardine,1975,163.426
+sardine,1976,145.346
+sardine,1977,130.244
+sardine,1978,161.744
+sardine,1979,141.002
+sardine,1980,197.95
+sardine,1981,224.131
+sardine,1982,210.992
+sardine,1983,188.447
+sardine,1984,210.564
+sardine,1985,212.142
+sardine,1986,190.835
+sardine,1987,176.474
+sardine,1988,170.107
+sardine,1989,147.692
+sardine,1990,169.947
+sardine,1991,137.526
+sardine,1992,133.16
+sardine,1993,144.92
+sardine,1994,140.472
+sardine,1995,137.177
+sardine,1996,134.307
+sardine,1997,125.832
+sardine,1998,127.83
+sardine,1999,103.552
+sardine,2000,100.19
+sardine,2001,112.003
+sardine,2002,113.873
+sardine,2003,109.578
+sardine,2004,123.627
+sardine,2005,124.042
+sardine,2006,60.7057
+sardine,2007,134.36811
+sardine,2008,117.5591
+sardine,2009,109.1734
+sardine,2010,109.4111
+sardine,2011,102.84533
+sardine,2012,81.48554
+sardine,2013,74.6946
+sardine,2014,62.81516
+sardine,2015,50.51414
+sardine,2016,44.96769
+sardine,2017,46.37766
+sardine,2018,41.228103
+other,1950,199.423
+other,1951,173.007
+other,1952,172.599
+other,1953,185.985
+other,1954,184.801
+other,1955,217.504
+other,1956,202.316
+other,1957,205.031
+other,1958,223.903
+other,1959,216.882
+other,1960,288.968
+other,1961,333.006
+other,1962,256.213
+other,1963,265.238
+other,1964,310.624
+other,1965,314.086
+other,1966,341.93
+other,1967,309.171
+other,1968,319.334
+other,1969,291.527
+other,1970,273.843
+other,1971,492.322
+other,1972,257.991
+other,1973,353.082
+other,1974,332.005
+other,1975,366.64
+other,1976,342.024
+other,1977,261.236
+other,1978,352.196
+other,1979,369
+other,1980,317.676
+other,1981,295.1
+other,1982,336.441
+other,1983,238.387
+other,1984,270.334
+other,1985,278.475
+other,1986,252.962
+other,1987,265.256
+other,1988,311.512
+other,1989,292.757
+other,1990,282.907
+other,1991,263.864
+other,1992,284.217
+other,1993,286.561
+other,1994,262.652
+other,1995,271.865
+other,1996,286.173
+other,1997,310.22
+other,1998,300.043
+other,1999,230.239
+other,2000,254.376
+other,2001,253.591
+other,2002,208.68
+other,2003,209.008
+other,2004,185.529
+other,2005,251.972
+other,2006,240.76122
+other,2007,282.98664
+other,2008,291.05644
+other,2009,234.8584
+other,2010,281.99614
+other,2011,275.00045
+other,2012,237.62494
+other,2013,265.72605
+other,2014,248.94078
+other,2015,282.8891
+other,2016,275.74087
+other,2017,259.41262
+other,2018,57.6283818
