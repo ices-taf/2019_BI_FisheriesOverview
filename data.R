@@ -22,7 +22,26 @@ catch_dat <-
 
 write.taf(catch_dat, dir = "data", quote = TRUE)
 
-# 2: SAG
+# 2: STECF effort and landings
+
+effort <- read.taf("bootstrap/data/STECF_effort_data.csv", check.names = TRUE)
+
+landings <- read.taf("bootstrap/initial/data/STECF_landings_data.csv", check.names = TRUE)
+
+frmt_effort <- format_stecf_effort(effort)
+effort <- effort %>% rename('regulated.area' = 'regulated area')
+effort <- effort %>% rename('regulated.gear' = 'regulated gear')
+frmt_effort <- format_stecf_effort(effort)
+frmt_landings <- format_stecf_landings(landings)
+landings <- landings %>% rename('regulated.area' = 'regulated area')
+landings <- landings %>% rename('regulated.gear' = 'regulated gear')
+frmt_landings <- format_stecf_landings(landings)
+
+write.taf(frmt_effort, dir = "data", quote = TRUE)
+write.taf(frmt_landings, dir = "data", quote = TRUE)
+
+
+# 3: SAG
 sag_sum <- read.taf("bootstrap/data/SAG_data/SAG_summary.csv")
 sag_refpts <- read.taf("bootstrap/data/SAG_data/SAG_refpts.csv")
 sag_status <- read.taf("bootstrap/data/SAG_data/SAG_status.csv")
