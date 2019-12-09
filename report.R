@@ -236,18 +236,27 @@ write.taf(dat, file ="2019_BI_FO_Figure12e.csv", dir = "report" )
 #~~~~~~~~~~~~~~~~~~~~~~~~~#
 guild <- read.taf("model/guild.csv")
 
+# For this EO, they need separate plots with all info
+
+guild2 <- guild %>% filter(Metric == "F_FMSY")
 plot_guild_trends(guild, cap_year = 2019, cap_month = "November",return_data = FALSE )
 ggplot2::ggsave("2019_BI_EO_GuildTrends.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
-guild2 <- guild %>%filter(Year > 1978)
+guild2 <- guild2 %>%filter(Year > 1978)
 plot_guild_trends(guild2, cap_year = 2019, cap_month = "November",return_data = FALSE )
 ggplot2::ggsave("2019_BI_EO_GuildTrends_short.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
 
-guild3 <- guild %>% filter(FisheriesGuild != "MEAN")
+guild3 <- guild2 %>% filter(FisheriesGuild != "MEAN")
 plot_guild_trends(guild3, cap_year = 2019, cap_month = "November",return_data = FALSE )
 ggplot2::ggsave("2019_BI_EO_GuildTrends_noMEAN.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
 guild4 <- guild3 %>%filter(Year > 1978)
 plot_guild_trends(guild4, cap_year = 2019, cap_month = "November",return_data = FALSE )
-ggplot2::ggsave("2019_BI_EO_GuildTrends_short_noMEAN.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
+ggplot2::ggsave("2019_BI_EO_GuildTrends_short_noMEAN_F.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
+
+guild2 <- guild %>% filter(Metric == "SSB_MSYBtrigger")
+guild3 <- guild2 %>% dplyr::filter(FisheriesGuild != "MEAN")
+guild4 <- guild3 %>% dplyr::filter(Year > 1978)
+plot_guild_trends(guild4, cap_year = 2019, cap_month = "November",return_data = FALSE )
+ggplot2::ggsave("2019_BI_EO_GuildTrends_short_noMEAN_SSB.png", path = "report/", width = 178, height = 130, units = "mm", dpi = 300)
 
 
 dat <- plot_guild_trends(guild, cap_year = 2019, cap_month = "November",return_data = TRUE)
