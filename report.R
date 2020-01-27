@@ -20,8 +20,8 @@ catch_trends <- read.taf("model/catch_trends.csv")
 #error with number of columns, to check
 clean_status <- read.taf("data/clean_status.csv")
 
-effort_dat <- read.taf("bootstrap/data/ICES_vms_effort_data/ICES_vms_effort_data.csv")
-landings_dat <- read.taf("bootstrap/data/ICES_vms_landings_data/ICES_vms_landings_data.csv")
+effort_dat <- read.taf("bootstrap/data/ICES_vms_effort_data/vms_effort_data.csv")
+landings_dat <- read.taf("bootstrap/data/ICES_vms_landings_data/vms_landings_data.csv")
 
 
 ices_areas <- 
